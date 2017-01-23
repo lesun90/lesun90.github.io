@@ -32,6 +32,12 @@
             </li>
           {% endfor %}
 
+          <!-- blog button
+          <li>
+            <a class="page-scroll" href="/blog">Blog</a>
+          </li>
+          -->
+          
         {% else %}
           <!-- Blog, Post, Tag and Error pages -->
           {% for p in site.pages_list %}
@@ -47,6 +53,9 @@
             {% endif %}
             </li>
           {% endfor %}
+          <li>
+            <a class="page-scroll" href="/blog">Blog</a>
+          </li>
         {% endif %}
       </ul>
     </div>
