@@ -32,12 +32,16 @@
             </li>
           {% endfor %}
 
+          <!-- resume button -->
+          <li>
+            <a class="page-scroll" href="resume/duongle_resume.pdf">CV</a>
+          </li>
+
           <!-- blog button
           <li>
             <a class="page-scroll" href="/blog">Blog</a>
           </li>
-          -->
-          
+-->
         {% else %}
           <!-- Blog, Post, Tag and Error pages -->
           {% for p in site.pages_list %}
@@ -54,8 +58,13 @@
             </li>
           {% endfor %}
           <li>
+            <a class="page-scroll" href="../resume/duongle_resume.pdf">CV</a>
+          </li>
+          <!-- blog button 
+          <li>
             <a class="page-scroll" href="/blog">Blog</a>
           </li>
+          -->
         {% endif %}
       </ul>
     </div>
