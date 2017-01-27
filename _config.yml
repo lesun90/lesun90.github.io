@@ -30,7 +30,7 @@ force-https: True
 
 lang: "en"
 author: "Duong Le"
-title: "Neo-Kites"
+title: "NeoKites"
 description: "My person blog."
 keywords: ""
 favicon: "/img/favicon.ico"
@@ -57,7 +57,7 @@ delete-delay: 5000
 lines: # You can add HTML Tags in the Text
   - text: "It's not about ideas, it's about making ideas happen"
   - text: "Do or do not. There is no try"
-feature: Software developer, Electrical Engineer, A Geek, PhD candidate in Robotic and AI
+feature: Software developer, Electrical Engineer, A Photographer, A Geek
 
 me-img: "/img/myavatar.gif"
 
@@ -103,7 +103,7 @@ pinterest-share: False
 pocket-share: False
 vkontakte-share: False
 
-disqus-shortname: ""
+#disqus-shortname: ""
 
 syntax-highlight: True
 
