@@ -11,5 +11,5 @@ title: About Me
 #### GITHUB Profile
 https://github.com/lesun90
 
-##Contact me
+#### Contact me
 Please contact me via: lesun90@gmail.com
