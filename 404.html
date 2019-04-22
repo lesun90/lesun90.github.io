@@ -1,7 +1,12 @@
 ---
-layout: error
-title: 404
+layout: index-material-sidebar-left
+title: Ooops!
 ---
-## Why are you still procrastinating?
+<div class="error">
+    <p>Something seems to have gone wrong here. Sorry 'bout that</p>
+    <p>Maybe we can make up for it with some posts and then be friends again?</p>
+</div>
 
-##### Check <a href="http://waitbutwhy.com/2013/11/how-to-beat-procrastination.html" target="_blank">this</a> out if you want to stop looking for pages that don't exist
+{% for post in site.posts limit:4 %}
+    {% include article_index.html %}
+{% endfor %}

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+	<channel>
+		<title>Neokites</title>
+		<description>Sky is the limit</description>
+		<link>http://localhost:4000</link>
+		<atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+		
+			<item>
+				<title>Multi-Robot Sampling-Based Motion Planning with Dynamics [maze scene]</title>
+				
+				
+					<description>&lt;p&gt;This project develops an effective multi-robot motion planner. The approach takes into account geometric and differential constraints imposed by the obstacles and the robot dynamics by using sampling to expand a motion tree in the composite state space of all the robots.&lt;/p&gt;
+</description>
+				
+				<pubDate>Tue, 02 Jan 2018 00:00:00 -0500</pubDate>
+				<link>http://localhost:4000/multi-robot-motion-planning-maze/</link>
+				<guid isPermaLink="true">http://localhost:4000/multi-robot-motion-planning-maze/</guid>
+			</item>
+		
+			<item>
+				<title>Multi-Robot Sampling-Based Motion Planning with Dynamics [hard case]</title>
+				
+				
+					<description>&lt;p&gt;This project develops an effective multi-robot motion planner. The approach takes into account geometric and differential constraints imposed by the obstacles and the robot dynamics by using sampling to expand a motion tree in the composite state space of all the robots.&lt;/p&gt;
+</description>
+				
+				<pubDate>Tue, 02 Jan 2018 00:00:00 -0500</pubDate>
+				<link>http://localhost:4000/multi-robot-motion-planning-hard-case-2/</link>
+				<guid isPermaLink="true">http://localhost:4000/multi-robot-motion-planning-hard-case-2/</guid>
+			</item>
+		
+			<item>
+				<title>Multi-Robot Sampling-Based Motion Planning with Dynamics [hard case]</title>
+				
+				
+					<description>&lt;p&gt;This project develops an effective multi-robot motion planner. The approach takes into account geometric and differential constraints imposed by the obstacles and the robot dynamics by using sampling to expand a motion tree in the composite state space of all the robots.&lt;/p&gt;
+</description>
+				
+				<pubDate>Tue, 02 Jan 2018 00:00:00 -0500</pubDate>
+				<link>http://localhost:4000/multi-robot-motion-planning-hard-case-1/</link>
+				<guid isPermaLink="true">http://localhost:4000/multi-robot-motion-planning-hard-case-1/</guid>
+			</item>
+		
+			<item>
+				<title>Multi-Robot Sampling-Based Motion Planning with Dynamics [general scene]</title>
+				
+				
+					<description>&lt;p&gt;This project develops an effective multi-robot motion planner. The approach takes into account geometric and differential constraints imposed by the obstacles and the robot dynamics by using sampling to expand a motion tree in the composite state space of all the robots.&lt;/p&gt;
+</description>
+				
+				<pubDate>Tue, 02 Jan 2018 00:00:00 -0500</pubDate>
+				<link>http://localhost:4000/multi-robot-motion-planning-general/</link>
+				<guid isPermaLink="true">http://localhost:4000/multi-robot-motion-planning-general/</guid>
+			</item>
+		
+			<item>
+				<title>Incorporating High-Level Tasks into Motion Planning with Dynamics [INTERACT]</title>
+				
+				
+					<description>&lt;p&gt;This project proposes an interactive search approach, termed INTERACT, which couples sampling-based motion planning withaction planning in order to effectively solve the combined task- and motion-planning problem. INTERACT is geared toward sce-narios involving a mobile robot operating in a fully-known environment consisting of static and movable objects&lt;/p&gt;
+</description>
+				
+				<pubDate>Mon, 01 Jan 2018 00:00:00 -0500</pubDate>
+				<link>http://localhost:4000/task-motion-planning/</link>
+				<guid isPermaLink="true">http://localhost:4000/task-motion-planning/</guid>
+			</item>
+		
+			<item>
+				<title>Guiding Sampling-Based Tree Search for Motion Planning with Dynamics via Probabilistic Roadmap Abstractions[snake robot]</title>
+				
+				
+					<description>&lt;p&gt;This project focuses on motion-planning problems for high-dimensional mobile robots with nonlinear dynamics operating incomplex environments. It is motivated by a recent framework that combines sampling-based motion planning in the state spacewith discrete search over a workspace decomposition&lt;/p&gt;
+</description>
+				
+				<pubDate>Mon, 01 Jan 2018 00:00:00 -0500</pubDate>
+				<link>http://localhost:4000/guided-motion-planning-snake/</link>
+				<guid isPermaLink="true">http://localhost:4000/guided-motion-planning-snake/</guid>
+			</item>
+		
+			<item>
+				<title>Guiding Sampling-Based Tree Search for Motion Planning with Dynamics via Probabilistic Roadmap Abstractions [car vehicle]</title>
+				
+				
+					<description>&lt;p&gt;This project focuses on motion-planning problems for high-dimensional mobile robots with nonlinear dynamics operating incomplex environments. It is motivated by a recent framework that combines sampling-based motion planning in the state spacewith discrete search over a workspace decomposition&lt;/p&gt;
+</description>
+				
+				<pubDate>Mon, 01 Jan 2018 00:00:00 -0500</pubDate>
+				<link>http://localhost:4000/guided-motion-planning-car/</link>
+				<guid isPermaLink="true">http://localhost:4000/guided-motion-planning-car/</guid>
+			</item>
+		
+			<item>
+				<title>Guiding Sampling-Based Tree Search for Motion Planning with Dynamics via Probabilistic Roadmap Abstractions [blimp robot]</title>
+				
+				
+					<description>&lt;p&gt;This project focuses on motion-planning problems for high-dimensional mobile robots with nonlinear dynamics operating incomplex environments. It is motivated by a recent framework that combines sampling-based motion planning in the state spacewith discrete search over a workspace decomposition&lt;/p&gt;
+</description>
+				
+				<pubDate>Mon, 01 Jan 2018 00:00:00 -0500</pubDate>
+				<link>http://localhost:4000/guided-motion-planning-blimp/</link>
+				<guid isPermaLink="true">http://localhost:4000/guided-motion-planning-blimp/</guid>
+			</item>
+		
+	</channel>
+</rss>

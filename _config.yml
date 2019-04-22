@@ -1,167 +1,125 @@
+full_rebuild: true
+name: Neokites
+description: Sky is the limit
+destination: jekyllbuild
+url: #place url
+baseurl: #place folder name if site is served in subfolder
+permalink: /:title/
+paginate: 8
+paginate_path: /page/:num/
+infinite_scroll: true #change to false if you want to use pagination
+gems: [jekyll-paginate]
+tag_dir: /tag
+category_dir: /category
+author_dir: /author
+author_title_prefix: 'Posted by '
+media_folder: /media/compressed
+author_default_avatar: /profile-pic.jpg
+# tumblr: "#"
+# pinterest: "#"
+# instagram: "#"
+# twitter: "#"
+# facebook: "#"
+# youtube: "#"
+# vimeo: "#"
+# soundcloud: "#"
+github: "https://github.com/lesun90"
+linkedin: "https://www.linkedin.com/in/duongle90/"
+emai: "lesun90@gmail.com"
+encoding: utf-8
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post-material-sidebar-left"
+      type: "standard"
+      homedisplay: "featimg"
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+relative_permalinks: false
+exclude: [.git, .gitignore, sass, .sass-cache, package.json, gruntfile.js, node_modules, README.md, jekyllbuild]
 
-# Site settings
-
-# NB! Set your site's url, otherwise stuff will break :)
-
-url: "https://lesun90.github.io"
-
-# If you're hosting your site at a Project repository on GitHub pages
-# (https://yourusername.github.io/repository-name)
-# and NOT your user repository (https://yourusername.github.io)
-# then add in the baseurl here, like this: "/repository-name"
-#
-# NB! Without this *nothing* will work, because it's used in every path :)
-
-baseurl:
-
-# Google tracking id to track your visitors
-
-google-tracking-id: ""
-
-# Forces https everywhere in your website, except when you serve it locally
-# If you are not hosted on Github Pages, and your host doesn't support https
-# then you should disable it
-
-force-https: True
-
-#############
-# HTML Head #
-#############
-
-lang: "en"
-author: "Duong Le"
-title: "NeoKites"
-description: "My person blog."
-keywords: ""
-favicon: "/img/favicon.ico"
-
-################
-# Header layout #
-################
-
-black-favicon: "/img/black-lab-glass.ico"
-
-background-img: "../img/background-blur.jpg"
-
-##############################
-# Dynamic Text on the Header #
-##############################
-
-dynamic-typing: True
-shuffle: True # Shuffle the lines.
-loop: True
-loop-count: False # Set False for infinite loop, or set any number for finite loop.
-type-speed: 10
-start-delay: 200
-delete-delay: 5000
-lines: # You can add HTML Tags in the Text
-  - text: "It's not about ideas, it's about making ideas happen"
-  - text: "Do or do not. There is no try"
-feature: Software developer, Electrical Engineer, A Photographer, A Geek
-
-me-img: "/img/myavatar.gif"
-
-##############################
-# Color the browser elements #
-##############################
-color-browser: "#000000"
-closebutton: "#1B2631"
-
-apple-status-bar-style: "black"
-
-################
-# Web app mode #
-################
-
-web-app-mode: True
-
-# Icons for Web App mode
-
-icon-36p: "/img/web-app/icon-36p.png"
-icon-48p: "/img/web-app/icon-48p.png"
-icon-72p: "/img/web-app/icon-72p.png"
-icon-96p: "/img/web-app/icon-96p.png"
-icon-144p: "/img/web-app/icon-144p.png"
-icon-192p: "/img/web-app/icon-192p.png"
-
-########
-# Blog #
-########
-
-post-preview-words: 96
-
-paginate: 5
-
-email-share: True
-fb-share: True
-twitter-share: False
-linkedin-share: True
-reddit-share: False
-google-plus-share: False
-tumblr-share: False
-pinterest-share: False
-pocket-share: False
-vkontakte-share: False
-
-#disqus-shortname: ""
-
-syntax-highlight: True
-
-###########
-# Contact #
-###########
-
-email: "lesun90@gmail.com"
-
-################
-# Author Blurb #
-################
-
-# The author blurb goes underneath blog posts.
-# This works best when your author blurb image has a transparent background, or matches your site background color.
-
-# if the author_blurb is not set, then this feature is skipped
-author_blurb: "An enginner, a softwear developer, a nature lover, a free spirit"
-author_blurb_image: "/img/author.gif"
-
-##################
-# Social Buttons #
-##################
-
-social:
-  - title: "facebook"
-    url: "https://facebook.com/lesun90"
-  - title: "github"
-    url: "https://github.com/lesun90"
-  - title: "linkedin"
-    url: "https://www.linkedin.com/in/duongle90"
-############
-# 404 page #
-############
-
-404-img: "/img/author.gif"
-
-################################################################################
-
-# NB! Tread carefully if you want to change the variables below this point!
-
-# Sections shown in the index page
-
-pages_list:
-  About: 'about'
-  #Skills: 'skills'
-  #Timeline: 'timeline'
-  Contact: 'contact'
-
-# Exclusion list from the generated _site
-
-exclude: ["LICENSE", "README.md", "CONTRIBUTING", "CONTRIBUTORS", "scripts"]
-
-# Enable minification SASS
-
-sass:
-  style: compressed
-
-gems:
-  - jekyll-paginate
-  - jemoji
+# prose.io configurations
+prose:
+  media: "img"
+  metadata:
+    _posts:
+      - name: "title"
+        field:
+          element: "text"
+          label: "title"
+      - name: "layout"
+        field:
+          element: "select"
+          label: "Layout"
+          help: "display post at full width or with sidebar"
+          options:
+            - name: "with sidebar"
+              value: "post"
+            - name: "full width"
+              value: "post-full"
+      - name: "author"
+        field:
+          element: "text"
+          label: "Author"
+          help: "author id as defined within _data/authors.yml"
+          type: "text"
+      - name: "featimg"
+        field:
+          element: "text"
+          label: "Featured Image"
+          help: "featured image within the img-folder"
+          type: "text"
+      - name: "type"
+        field:
+          element: "select"
+          label: "Post Type"
+          help: "each type has some special feature"
+          options:
+            - name: "Standard"
+              value: "standard"
+            - name: "Image"
+              value: "image"
+            - name: "Gallery"
+              value: "gallery"
+            - name: "Audio"
+              value: "audio"
+            - name: "YouTube"
+              value: "youtube"
+            - name: "Vimeo"
+              value: "vimeo"
+      - name: "homedisplay"
+        field:
+          element: "select"
+          label: "Home Display"
+          help: "decide whether to display embedded element (for post types: audio, youtube, vimeo) or Featured Image on home page"
+          options:
+            - name: "Featured Image"
+              value: "featimg"
+            - name: "Embedded Element"
+              value: "iframe"
+      - name: "vimeo-embed"
+        field:
+          element: "text"
+          label: "Vimeo Embedding Code"
+          help: "Set post type to vimeo in order for this to work"
+      - name: "gallery-id"
+        field:
+          element: "text"
+          label: "Gallery ID"
+          help: "ID of the gallery defined within _data/galleries.yml - use include in content to use"
+      - name: "audio-embed"
+        field:
+          element: "text"
+          label: "Audio Embedding Code"
+          help: "Set post type to audio in order for this to work"
+      - name: "yt-video-id"
+        field:
+          element: "text"
+          label: "YouTube Video ID"
+          help: "Set post type to youtube in order for this to work. Do not set featured image, as the youtube video thumbnail will be used"
+          type: "text"
