@@ -8,7 +8,7 @@ title: About Me
 - Experiences in developing and implementing advanced motion planning algorithms in simulation and deployment to real robotics systems.
 - PH.D. IN COMPUTER SCIENCE, FIELD: ROBOTICS AND ARTIFICIAL INTELLIGENCE
 
-## GITHUB Profile
+#### GITHUB Profile
 https://github.com/lesun90
 
 ##Contact me
