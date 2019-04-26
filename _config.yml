@@ -43,6 +43,12 @@ kramdown:
 relative_permalinks: false
 exclude: [.git, .gitignore, sass, .sass-cache, package.json, gruntfile.js, node_modules, README.md, jekyllbuild]
 
+sass:
+  sass_dir: _scss
+
+plugins:
+  - jekyll-coffeescript
+
 # prose.io configurations
 prose:
   media: "img"

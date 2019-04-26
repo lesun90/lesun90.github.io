@@ -16,3 +16,8 @@ Check the [Docs](http://gridster.digitalmind.ch/documentation/) out.
 ### Feedback, Wishes, Problems
 If you run into any trouble or have a request please do so by opening up an issue on the theme's GitHub page.
 If you just want to give us a general feedback feel free to [contact us!](http://digitalmind.ch/contact/)
+
+sudo npm install --save-dev load-grunt-tasks
+
+sudo npm install --save-dev  --unsafe-perm node-sass
+

@@ -1,4 +1,5 @@
 module.exports = function (grunt) {
+    const sass = require('node-sass');
 
     // Project configuration.
     grunt.initConfig({
@@ -98,6 +99,8 @@ module.exports = function (grunt) {
         sass: {
             options: {
                 outputStyle: 'compressed',
+                implementation: sass, 
+                sourceMap: true
             },
             dist: {
                 files: {
