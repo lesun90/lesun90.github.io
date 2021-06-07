@@ -7,6 +7,45 @@
 		<atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>Historical Improvement Optimal Motion Planning with Model Predictive Trajectory Optimization for On-road Autonomous Vehicle</title>
+				
+				
+					<description>&lt;p&gt;HSL-RRT* Emergency pull over&lt;br /&gt;
+Historical Improvement Optimal Motion Planning with Model Predictive Trajectory Optimization for On-road Autonomous Vehicle&lt;/p&gt;
+</description>
+				
+				<pubDate>Sat, 03 Oct 2020 00:00:00 -0400</pubDate>
+				<link>/self-driving-car-HSL-RRT/</link>
+				<guid isPermaLink="true">/self-driving-car-HSL-RRT/</guid>
+			</item>
+		
+			<item>
+				<title>Historical Improvement Optimal Motion Planning with Model Predictive Trajectory Optimization for On-road Autonomous Vehicle</title>
+				
+				
+					<description>&lt;p&gt;HSL-RRT* Merge into traffic flow after the emergency pull over&lt;/p&gt;
+
+</description>
+				
+				<pubDate>Fri, 02 Oct 2020 00:00:00 -0400</pubDate>
+				<link>/self-driving-car-HSL-RRT/</link>
+				<guid isPermaLink="true">/self-driving-car-HSL-RRT/</guid>
+			</item>
+		
+			<item>
+				<title>Historical Improvement Optimal Motion Planning with Model Predictive Trajectory Optimization for On-road Autonomous Vehicle</title>
+				
+				
+					<description>&lt;p&gt;EM vs RRTS* : Navigation through many obstacles&lt;/p&gt;
+
+</description>
+				
+				<pubDate>Thu, 01 Oct 2020 00:00:00 -0400</pubDate>
+				<link>/self-driving-car-HSL-RRT/</link>
+				<guid isPermaLink="true">/self-driving-car-HSL-RRT/</guid>
+			</item>
+		
+			<item>
 				<title>Multi-Robot Sampling-Based Motion Planning with Dynamics [maze scene]</title>
 				
 				
