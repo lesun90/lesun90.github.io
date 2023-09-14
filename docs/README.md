@@ -26,12 +26,12 @@
 <img src="https://raw.githubusercontent.com/abhinavs/moonwalk/master/_screenshots/lighthouse-report.png" />
 
 ## Quick Installation
-1. [Fork this repository](https://github.com/abhinavs/moonwalk/fork).
+1. [Fork this repository](https://github.com/abhissnavs/moonwalk/fork).
 2. `cd moonwalk`
 3. `bin/bootstrap`
 4. [Optional] Sign up on Soopr, and add your `publish_token` in `_config.yml` file.
 
-If you are installing Moonwalk on Windows, please note that you might have to use Ruby 3.0.x instead of Ruby 3.1.x - you can see Windows specific installation instructions [here](https://github.com/abhinavs/moonwalk/blob/master/moonwalk_on_windows.md)
+If you are installing Moonwalk on Windows, please note that you might have to use Ruby 3.0.x instead of Ruby 3.1.x - you can see Windows specific installation instructions [here](https://github.com/abhissnavs/moonwalk/blob/master/moonwalk_on_windows.md)
 
 ## Starting Server
 `bin/start` - development server will start at http://127.0.0.1:4000
@@ -40,9 +40,9 @@ If you are installing Moonwalk on Windows, please note that you might have to us
 Moonwalk can be easily deployed on all the cloud providers (AWS etc.), and on static website hosting services like Netlify & Vercel. You can also use this button to do one click deploy
 <br />
 <br />
-[![Deploy with Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/abhinavs/moonwalk)
+[![Deploy with Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/abhissnavs/moonwalk)
 
-If you want to use Moonwalk as a gem or use Github Pages, please see [this page](https://github.com/abhinavs/moonwalk/blob/master/github_pages.md)
+If you want to use Moonwalk as a gem or use Github Pages, please see [this page](https://github.com/abhissnavs/moonwalk/blob/master/github_pages.md)
 
 ## Customizing
 
@@ -120,7 +120,7 @@ html {
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/abhinavs/moonwalk.
+Bug reports and pull requests are welcome on GitHub at https://github.com/abhissnavs/moonwalk.
 
 ## Development
 
