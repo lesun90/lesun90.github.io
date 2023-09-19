@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en" class="html" data-theme="light"><head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>
+    
+      On-Road Motion Planner for Autonomous Vehicle
+    
+  </title>
+
+  <!-- Begin Jekyll SEO tag v2.7.3 -->
+<meta name="generator" content="Jekyll v4.2.2" />
+<meta property="og:title" content="On-Road Motion Planner for Autonomous Vehicle" />
+<meta name="author" content="Duong Le" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Link To Paper: Historical Improvement Optimal Motion Planning with Model Predictive Trajectory Optimization for On-road Autonomous Vehicle" />
+<meta property="og:description" content="Link To Paper: Historical Improvement Optimal Motion Planning with Model Predictive Trajectory Optimization for On-road Autonomous Vehicle" />
+<link rel="canonical" href="http://localhost:4000/hsl-mp" />
+<meta property="og:url" content="http://localhost:4000/hsl-mp" />
+<meta property="og:image" content="https://soopr.xyz/images/card?url=http://localhost:4000/hsl-mp" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2021-04-13T00:00:00+00:00" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="og:image" content="https://soopr.xyz/images/card?url=http://localhost:4000/hsl-mp" />
+<meta property="twitter:title" content="On-Road Motion Planner for Autonomous Vehicle" />
+<meta name="twitter:site" content="@///" />
+<meta name="twitter:creator" content="@Duong Le" />
+<script type="application/ld+json">
+{"@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/hsl-mp"},"description":"Link To Paper: Historical Improvement Optimal Motion Planning with Model Predictive Trajectory Optimization for On-road Autonomous Vehicle","headline":"On-Road Motion Planner for Autonomous Vehicle","dateModified":"2021-04-13T00:00:00+00:00","url":"http://localhost:4000/hsl-mp","datePublished":"2021-04-13T00:00:00+00:00","author":{"@type":"Person","name":"Duong Le"},"@context":"https://schema.org"}</script>
+<script async defer data-soopr-token="" src="https://sdk.soopr.co/soopr.js"  ></script>
+<!-- End Jekyll SEO tag -->
+
+  <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" />
+
+  <!-- Favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon/favicon-16x16.png">
+  <link rel="manifest" href="/assets/images/favicon/site.webmanifest">
+  <link rel="mask-icon" href="/assets/images/favicon/safari-pinned-tab.svg" color="#5bbad5">
+  <link rel="shortcut icon" href="/assets/images/favicon/favicon.ico">
+  <meta name="msapplication-TileColor" content="#00aba9">
+  <meta name="msapplication-config" content="/assets/images/favicon/browserconfig.xml">
+  <meta name="theme-color" content="#ffffff">
+  <!-- Favicon -->
+
+  <link rel="stylesheet" href="/assets/css/main.css" />
+  
+</head>
+<body>
+    <main class="page-content" aria-label="Content">
+      <div class="w">
+        <a href="/">home..</a>
+<h1 class="post-title">On-Road Motion Planner for Autonomous Vehicle</h1>
+<p class="post-date text-bold">
+  
+    <span class="text-upcase">Duong Le</span> / 
+  
+  
+    <span class="text-upcase">April 2021</span>
+  
+
+
+  
+  
+  (108 Words, 
+  1 Minutes)
+  
+
+</p>
+
+<div class="soopr-btn"
+   data-twitter="SooprCo"
+>
+</div>
+
+
+  <div class="">
+    
+    <span class="tag">Motion Planning</span>
+    
+    <span class="tag">Autonomous Vehicle</span>
+    
+  </div>
+
+
+<p><a href="papers/le2019.pdf">Link To Paper: Historical Improvement Optimal Motion Planning with Model
+Predictive Trajectory Optimization for On-road Autonomous Vehicle</a></p>
+
+<p>This paper presents an efficient, robust, com- fortable, and real-time motion planning framework for on- road autonomous vehicles. This proposed framework aims to enhance the performance of motion planning in complex environments such as driving in the urban area. It uses a path velocity decomposition method to separate the motion planning problem into path planning and velocity planning. The novelty lies in the use of Historical data in the SLcoordinate in the framework of a tree version of Rapidly-exploring Random Graph (RRT<em>) technique in path planner, called HSL-RRT</em>, which grows the path tree efficiently by the data from previous planning cycle. The velocity planner uses a Nonlinear Model Predictive Controller (NMPC) to generate optimal velocity along the path generated from the path planner, taking account of vehicle constraints and comfort. Analytic and simulation results are presented to validate the approach, with a special focus on the robustness and efficiency of the algorithm operating in complex scenarios.</p>
+
+<p><b>  Appolo EM (left) vs HSL-RRT* (right): Navigate through many obstacles scenario (EM fail, HSL-RRT* success) </b></p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/GYbduBF8PCo?si=-E74AtslJrG9jIDE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>
+
+<p><b>  Appolo EM (left) vs HSL-RRT* (right): Performs a short lane change (EM fail, HSL-RRT* success)</b></p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/YgYAKL84YAQ?si=f3VPExzMN4rHPndk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>
+
+<p><b>  HSL-RRT* perform a pull-over </b></p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/I8HMVVUcgMg?si=bgXUQCpMqi_-Gr8i" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>
+
+<p><b>  HSL-RRT* Merge into traffic flow after the emergency pull over</b></p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/thZBK7Gw82g?si=LYiT4XDjyT5bCu4N" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>
+
+
+        
+        <div class="credits">&copy;&nbsp;2023&nbsp;Duong Le
+          &nbsp;
+          <!-- •
+          &nbsp;Powered by <a href="https://www.soopr.co" target="_blank" rel="noreferrer">Soopr</a>
+          &nbsp;
+          •
+          &nbsp;Theme&nbsp; <a href="https://github.com/abhissnavs/moonwalk" target="_blank" rel="noreferrer">Moonwalk</a> -->
+        </div>
+      </div>
+    </main><script async defer src="https://sdk.soopr.co/soopr.js"></script></body>
+</html>

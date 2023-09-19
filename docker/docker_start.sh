@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd -P)"
-DEV_IMAGE=lesun90/spa_system:dev-x86_64-20230913_1759
+DEV_IMAGE=lesun90/spa_system
 HOST_NAME="LTD"
 display=":1"
 volumes="-v $ROOT_DIR:/pa"
